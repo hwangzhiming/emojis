@@ -26,7 +26,7 @@ gulp.task('build:js', [],  () =>{
         .pipe(babel({
             presets: ['es2015']
         }))
-        .pipe(concat('smart.emoji.min.js'))
+        .pipe(concat('smart.emojis.min.js'))
         .pipe(uglify())
         .pipe(gulp.dest('./dist'));
 });

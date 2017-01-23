@@ -1,6 +1,6 @@
 {
   "name": "smart-emojis",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Emoji resource, angular 1.x filter",
   "main": "index.js",
   "scripts": {
