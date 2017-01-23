@@ -1,7 +1,7 @@
 {
   "name": "smart-emojis",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "Emoji resource, angular 1.x filter",
   "main": "index.js",
   "scripts": {
     "prebuild": "gulp emoji:list",
@@ -12,7 +12,7 @@
     "url": "git+https://github.com/hwangzhiming/smart-emojis.git"
   },
   "author": {
-    "name": "Alex Huang",
+    "name": "hwangzhiming",
     "email": "hwangzhiming@gmail.com",
     "url": "http://www.topming.com"
   },
@@ -21,7 +21,7 @@
     "url": "https://github.com/hwangzhiming/smart-emojis/issues"
   },
   "homepage": "https://github.com/hwangzhiming/smart-emojis#readme",
-  "dependencies": {
+  "devDependencies": {
     "babel-preset-es2015": "^6.22.0",
     "gulp": "^3.9.1",
     "gulp-babel": "^6.1.2",
